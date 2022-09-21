@@ -1,7 +1,8 @@
 import React from "react";
+
 function Map(){
     return(
-        <img src=""></img>
+         <img  className = "map"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8wHw9GLuCCNxCq4dbvuHo_2h6eg68h1sGTpaAcmIu&s"></img>
     )
 }
 
