@@ -1,8 +1,6 @@
 import React from "react";
-
-{const image = document.createElement("img")
-image.setAttribute("src",)}
-
+import Customer from "./Customer";
+ 
 function Portfolio(){
     return(
         <div id="portfolio"  className="container-fluid text-center bg-grey">
@@ -25,7 +23,7 @@ function Portfolio(){
     </div>
     <div  className="col-sm-4">
       <div  className="thumbnail">
-        <img src="" alt="San Francisco" width="400" height="300"/>
+        <img src="https://images.unsplash.com/photo-1663187114582-5cfcbdac5481?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="San Francisco" width="400" height="300"/>
         <p><strong>San Francisco</strong></p>
         <p>Yes, San Fran is ours</p>
       </div>
@@ -64,6 +62,7 @@ function Portfolio(){
       <span  className="sr-only">Next</span>
     </a>
   </div>
+  <Customer></Customer>
 </div>
 
     )
