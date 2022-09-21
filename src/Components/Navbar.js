@@ -1,18 +1,18 @@
 import React from "react"
 function Navbar(){
     return(
-        <nav  classNameName="navbar navbar-default navbar-fixed-top">
-            <div  classNameName="container">
-            <div  classNameName="navbar-header">
-            <button type="button"  classNameName="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span  classNameName="icon-bar"></span>
-                <span  classNameName="icon-bar"></span>
-                <span  classNameName="icon-bar"></span>                        
+        <nav  className="navbar navbar-default navbar-fixed-top">
+            <div  className="container">
+            <div  className="navbar-header">
+            <button type="button"  className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span  className="icon-bar"></span>
+                <span  className="icon-bar"></span>
+                <span  className="icon-bar"></span>                        
             </button>
-            <a  classNameName="navbar-brand" href="#myPage">Logo</a>
+            <a  className="navbar-brand" href="#myPage">Logo</a>
             </div>
-            <div  classNameName="collapse navbar-collapse" id="myNavbar">
-            <ul  classNameName="nav navbar-nav navbar-right">
+            <div  className="collapse navbar-collapse" id="myNavbar">
+            <ul  className="nav navbar-nav navbar-right">
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
