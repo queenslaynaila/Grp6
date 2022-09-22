@@ -1,11 +1,16 @@
 {
+  "homepage": "http://queenslaynaila.github.io/Grp6",
   "name": "reactscratch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --config webpack.config.js"
+    "start": "webpack serve --config webpack.config.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build":"react-scripts build"
+
   },
   "keywords": [],
   "author": "",
@@ -17,6 +22,7 @@
     "babel-loader": "^8.2.5",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
